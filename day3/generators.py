@@ -44,3 +44,10 @@ def square(nums):
         yield num**2
 print("Sum of squares of numbers in Fibonacci series: ")
 print(sum(square(fibonacci(5))))
+
+#Reversing a string using generator
+def rev(str1):
+    for i in range(len(str1) - 1, -1, -1):
+        yield str1[i]
+for char in rev("hello world"):
+    print(char)
