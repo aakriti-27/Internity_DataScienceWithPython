@@ -1,0 +1,28 @@
+What is NumPy?
+
+NumPy is short for "Numerical Python".
+Numpy is a general-purpose array-processing package. 
+It provides a high-performance multidimensional array object, and tools for working with these arrays. 
+It is the fundamental package for scientific computing with Python.
+
+Why NumPy arrays?
+
+In Python we have lists that serve the purpose of arrays, but they are slow to process.
+NumPy aims to provide an array object that is up to 50x faster than traditional Python lists because stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
+It provides a lot of supporting functions that make working with ndarray(array object) very easy.
+Arrays are very frequently used in data science, where speed and resources are very important.
+
+Limitations of NumPy:
+1)Using “nan” in Numpy: “Nan” stands for “not a number”. It was designed to address the problem of missing values. NumPy itself supports “nan” but lack of cross-platform support within Python makes it difficult for the user. That’s why we may face problems when comparing values within the Python interpreter.
+2)Require a contiguous allocation of memory: Insertion and deletion operations become costly as data is stored in contiguous memory locations as it requires shifting.
+
+NumPy ndarray objects:
+It describes the collection of items of the same type. Items in the collection can be accessed using a zero-based index.
+Every item in an ndarray takes the same size of block in the memory. Each element in ndarray is an object of data-type object (called dtype).
+
+Copy
+Copy is a new array. It the data and any changes made to the copy will not affect original array, and any changes made to the original array will not affect the copy.
+
+View
+View is just a view of the original array.
+It does not own the data and any changes made to the view will affect the original array, and any changes made to the original array will affect the view.
