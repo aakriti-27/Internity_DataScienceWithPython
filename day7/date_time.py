@@ -25,6 +25,5 @@ d7 = np.timedelta64(1,'W') % np.timedelta64(10,'D')
 print(d7)
 
 #The timedelta64 data type also accepts the string “NAT” in place of the number for a “Not A Time” value.
-
 d8=np.datetime64('nat') - np.datetime64('2009-01-01')
 print(d8)

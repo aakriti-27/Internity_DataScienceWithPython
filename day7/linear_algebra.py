@@ -36,6 +36,7 @@ print(npy.matmul(a3,b3))
 print(npy.matmul(b3,a3))
 
 #numpy.linalg.det() function calculates the determinant of the input matrix
+a2 = npy.array([[1,2],[3,4]]) 
 print(npy.linalg.det(a2))
 b = npy.array([[6,1,1], [4, -2, 5], [2,8,7]])
 print(npy.linalg.det(b))
