@@ -50,10 +50,6 @@ print('Average weight of temperature: ',np.average(temp))
 #Bit-twiddling functions:
 #These functions accept integer values as input arguments and perform bitwise operations on binary representations of those integers.
 
-# Python code to demonstrate bitwise-function
-import numpy as np
-
-# construct an array of even and odd numbers
 n1 = np.array([2,4,5,6,7])
 n2 = np.array([1,3,8,9,0])
 
