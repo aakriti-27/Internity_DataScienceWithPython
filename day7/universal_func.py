@@ -63,8 +63,8 @@ print('bitwise_or of two arrays: ',np.bitwise_or(n1,n2))
 
 print('bitwise_xor of two arrays: ',np.bitwise_xor(n1,n2))
 
-print('inversion of even no. array: ',np.invert(n1))
+print('inversion of n1 array: ',np.invert(n1))
 
-print('left_shift of even no. array: ',np.left_shift(n1, 2))
+print('left_shift of n1 array: ',np.left_shift(n1, 2))
 
-print('right_shift of even no. array: ',np.right_shift(n2, 2))
+print('right_shift of n1 array: ',np.right_shift(n2, 2))
